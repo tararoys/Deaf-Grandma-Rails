@@ -1,5 +1,8 @@
 LearningRails::Application.routes.draw do
-  get '/' => 'pages#index'
+  root to: 'pages#index'
+  post '/grandma' => 'pages#grandma'
+end
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -54,4 +57,4 @@ LearningRails::Application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
-end
+
