@@ -11,6 +11,6 @@
 /db/*.sqlite3
 /db/*.sqlite3-journal
 
-# Ignore all logfiles and tempfiles.
-/log/*.log
-/tmp
+# Don't ignore all logfiles and tempfiles. Tara wants to see how the rails app changes as she runs commands. 
+#/log/*.log
+#/tmp
